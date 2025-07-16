@@ -32,10 +32,11 @@ data/*.xls
 *.log
 logs/
 
-# md dile
+# Markdown files
+*.md
 
-.md
-
+# Module files
+*.mod
 
 # Go modules
 go.sum
