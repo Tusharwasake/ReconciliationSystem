@@ -1,0 +1,40 @@
+# Go binaries
+*.exe
+main
+PortOneReconciliation
+PortOneReconciliation.exe
+
+# Environment variables
+.env
+
+# Ignore all data files in the data directory
+data/*.csv
+data/*.tsv
+data/*.txt
+data/*.xlsx
+data/*.xls
+
+# But keep sample data and README
+!data/README.md
+!data/samples/
+!data/samples/*.csv
+!data/samples/*.txt
+!data/samples/*.tsv
+
+# Database files
+*.db
+*.sqlite
+*.sql
+
+# Log files (may contain sensitive data)
+*.log
+logs/
+
+
+# Go modules
+go.sum
+
+# Output/reports
+reports/
+output/
+reconciliation_*.csv
