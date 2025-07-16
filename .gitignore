@@ -7,6 +7,8 @@ PortOneReconciliation.exe
 # Environment variables
 .env
 
+
+# Data files (CRITICAL - contains sensitive payment data)
 # Ignore all data files in the data directory
 data/*.csv
 data/*.tsv
@@ -29,6 +31,10 @@ data/*.xls
 # Log files (may contain sensitive data)
 *.log
 logs/
+
+# md dile
+
+.md
 
 
 # Go modules
