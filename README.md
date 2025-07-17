@@ -2,11 +2,14 @@
 
 A simple Go-based tool for reconciling payment and settlement data files. The system processes CSV payment files and TSV settlement files, stores them in a PostgreSQL database, and generates reconciliation reports.
 
-- Data Payment and settle data
-  https://drive.google.com/file/d/1-k-6owWaEi8I5WbdeqRPjApxClME10fV/view?usp=sharing
+Data Files for Reconciliation Task
+Payment and Settlement Data
+The input data required for reconciliation can be found in the link below. Please download and extract the files, then place them in the designated data folder:
+[Download Payment & Settlement Data](https://drive.google.com/file/d/1-k-6owWaEi8I5WbdeqRPjApxClME10fV/view)
 
-- Reconciliation report
-  https://drive.google.com/file/d/1QNu6UgQGsQnfGNcI0-8GXJYKUshlIttB/view?usp=sharing
+Reconciliation Report (Expected Output)
+The expected output after running the reconciliation logic will be a CSV report, saved in the output folder. You can refer to the sample report provided here:
+[Download Reconciliation Report](https://drive.google.com/file/d/1QNu6UgQGsQnfGNcI0-8GXJYKUshlIttB/view)
 
 ## Features
 
