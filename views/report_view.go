@@ -8,6 +8,7 @@ import (
 )
 
 func GenerateCSVReport() error {
+	
 	// Create output directory if it doesn't exist
 	os.MkdirAll("output", 0755)
 
