@@ -16,12 +16,7 @@ data/*.txt
 data/*.xlsx
 data/*.xls
 
-# But keep sample data and README
-!data/README.md
-!data/samples/
-!data/samples/*.csv
-!data/samples/*.txt
-!data/samples/*.tsv
+
 
 # Database files
 *.db
